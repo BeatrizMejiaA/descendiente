@@ -1,0 +1,42 @@
+ALGORITMO QUE FORMA 3 NUMEROS INGRESADOS DE FORMA DESCENDENTE
+
+definir numero1 <---- 0
+                numero2 <----0
+                numero3 <---- 0
+                numeros <----- []
+
+Inicio
+
+Mostrar
+numeros[0]-> "ingrese primer número"
+ numeros[1]->  "ingrese primer número"
+ numeros[2]->  "ingrese primer número"
+
+Si numeros [0] es mayor a numeros[1]
+	no hacer nada
+de lo contrario
+	cambiar de posicion
+	numeros[0] = num2;
+  	numeros[1] = num1;
+END SI
+	
+
+Si numeros [0] es mayor a numeros[2]
+	no hacer nada
+de lo contrario
+	cambiar de posicion
+	numeros[0] = num3;
+  	numeros[2] = num1;
+END SI
+
+Si numeros [1] es mayor a numeros[2]
+	no hacer nada
+de lo contrario
+	cambiar de posicion
+	numeros[1] = num3;
+  	numeros[2] = num2;
+END SI
+
+mostrar el arreglo numeros.
+
+
